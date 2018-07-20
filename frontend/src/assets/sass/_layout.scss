@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-style: normal;
+	src: url(assets/fonts/NanumBarunGothic.eot);
+	src: url(assets/fonts/NanumBarunGothic.eot?#iefix) format("embedded-opentype"), url(assets/fonts/NanumBarunGothic.woff) format("woff"), url(assets/fonts/NanumBarunGothic.woff2) format("woff2");
+}
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	src: url(assets/fonts/OpenSans-Light.eot);
+	src: url(assets/fonts/OpenSans-Light.eot?#iefix) format("embedded-opentype"), url(assets/fonts/OpenSans-Light.woff) format("woff"), url(assets/fonts/OpenSans-Light.woff2) format("woff2");
+}
+/* style type variable */
+$basic-color:#fff;
+body{ background:#e9ecf3; margin:0px;
+	#app{ position:relative; }
+	#container{}
+	/* contents layout */
+	.main_widget{ padding:40px 40px 40px 290px;
+		.main_inner_widget{
+			.section_widget{background:$basic-color; padding:20px; border-radius:4px;}
+			.section_margin{margin-top:10px;}
+		}
+	}
+	/* scroll style */
+	.scroll::-webkit-scrollbar{width:10px;}
+	.scroll::-webkit-scrollbar-thumb{height:20px; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2); background-color: #e9ecf3;}
+
+	/* contents scroll */
+	.section_scroll{overflow-y:scroll; padding-right:10px;}
+}
