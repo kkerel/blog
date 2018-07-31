@@ -44,7 +44,7 @@ aside{ position: fixed; top: 0px; left: 0px; z-index: 10; width: 250px; height: 
 			a{height:60px; line-height:60px; display:block; padding-left:45px; color:#757e89; border-bottom:1px solid #757e89; font-size:12px; letter-spacing:1px; background:url('../../assets/image/icon/aside_off_i.png') 20px center no-repeat;
 				&:hover{color:$basic-color; background:#2b343f url('../../assets/image/icon/aside_on_i.png') 20px center no-repeat;}
 			}
-			.router-link-exact-active{color:$basic-color; background:#2b343f url('../../assets/image/icon/aside_on_i.png') 20px center no-repeat; border-right:5px solid #00b3a5;}
+			.router-link-exact-active{color:$basic-color; background:#2b343f url('../../assets/image/icon/aside_on_i.png') 20px center no-repeat; border-right:5px solid #fff;}
 		}
 	}
 }

@@ -6,7 +6,7 @@
 					<ui-menutitle :page="page"></ui-menutitle>
 				</div>
 				<div class="section_widget section_margin">
-					<div class="section_inner_wrap section_scroll scroll">
+					<div class="section_inner_wrap">
 						<div class="visual"></div>
 						<ui-board :listData="lData"></ui-board>
 					</div>
@@ -64,7 +64,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.section_inner_wrap{height:500px;
+.section_inner_wrap{
 	.visual{width:100%; height:360px; background:url('../../assets/image/common/visual_03.jpg') center center no-repeat; margin-bottom:20px;}
 }
 </style>

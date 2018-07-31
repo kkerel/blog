@@ -6,7 +6,7 @@
 					<ui-menutitle :page="page"></ui-menutitle>
 				</div>
 				<div class="section_widget section_margin">
-					<div class="section_inner_wrap section_scroll scroll">
+					<div class="section_inner_wrap">
 						<div class="visual"></div>
 						<div class="info_wrap">
 							<div class="title">이름</div>
@@ -15,6 +15,14 @@
 						<div class="info_wrap">
 							<div class="title">생년월일</div>
 							<div class="info">1991년 12월 9일(양력) 양띠</div>
+						</div>
+						<div class="info_wrap">
+							<div class="title">보유스킬</div>
+							<div class="info">html,css,html5,css3,javascript,jquery</div>
+						</div>
+						<div class="info_wrap">
+							<div class="title">응용스킬</div>
+							<div class="info">sass,requirejs(맛만봄),webpack(조금 맛만봄),node,js(npm 맛만봄),vue(프프로젝트2개진행)</div>
 						</div>
 						<div class="info_wrap">
 							<div class="title">휴대전화</div>
@@ -100,10 +108,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.section_inner_wrap{height:500px;
+.section_inner_wrap{
 	p{line-height:1.5;}
 	.info_wrap{width:100%; display:table; line-height:2; font-size:12px;
-		.title{width:120px; display:table-cell;}
+		.title{width:120px; padding:5px 0px; display:table-cell;}
 		.info{display:table-cell;}
 	}
 	.visual{width:100%; height:300px; background:url('../../assets/image/common/visual_02.jpg') center center no-repeat; margin-bottom:20px;}

@@ -13,19 +13,19 @@
 /* style type variable */
 $basic-color:#fff;
 body{ background:#e9ecf3; margin:0px;
+	&::-webkit-scrollbar{width:10px;}
+	&::-webkit-scrollbar-thumb{height:20px; -webkit-box-shadow: inset 0 0 6px rgba(41,62,87,.5); background-color: #323c48;}
 	#app{ position:relative; }
-	#container{}
+	#container{background:#e9ecf3;}
 	/* contents layout */
-	.main_widget{ padding:40px 40px 40px 290px;
+	.main_widget{ padding:40px 40px 40px 290px; margin-bottom:70px;
 		.main_inner_widget{
 			.section_widget{background:$basic-color; padding:20px; border-radius:4px;}
 			.section_margin{margin-top:10px;}
 		}
 	}
-	/* scroll style */
-	.scroll::-webkit-scrollbar{width:10px;}
-	.scroll::-webkit-scrollbar-thumb{height:20px; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2); background-color: #e9ecf3;}
-
 	/* contents scroll */
 	.section_scroll{overflow-y:scroll; padding-right:10px;}
 }
+/* scroll style */
+

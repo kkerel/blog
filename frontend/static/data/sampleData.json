@@ -43,5 +43,20 @@
 		"title":"모바일 해상도 최적화",
 		"data":"2018.06.28",
 		"link":"http://www.florakid.com/florakid_lib/sub/mobile/resolution_optimization.html"
+	},
+	{
+		"title":"viewport meta tag",
+		"data":"2018.07.31",
+		"link":"https://developer.mozilla.org/ko/docs/Mozilla/Mobile/Viewport_meta_tag"
+	},
+	{
+		"title":"생활코딩 코딩야학 (2018년 8월1일부터 14일까지 10일동안)",
+		"data":"2018.07.31",
+		"link":"https://opentutorials.org/course/3084"
+	},
+	{
+		"title":"NAVER D2 Hello world",
+		"data":"2018.07.31",
+		"link":"https://d2.naver.com/helloworld"
 	}
 ]
