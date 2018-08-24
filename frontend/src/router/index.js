@@ -4,6 +4,8 @@ import main from '@/components/main'
 import Home from '@/components/menu/home'
 import Profile from '@/components/menu/Profile'
 import Referencedata from '@/components/menu/Referencedata'
+import Publishing from '@/components/menu/Publishing'
+import Develop from '@/components/menu/Develop'
 
 Vue.use(Router)
 
@@ -34,6 +36,16 @@ export default new Router({
 					path: 'referencedata',
 					name: 'Referencedata',
 					component: Referencedata
+				},
+				{
+					path: 'publishing',
+					name: 'Publishing',
+					component: Publishing
+				},
+				{
+					path: 'develop',
+					name: 'Develop',
+					component: Develop
 				}
 			]
 		}

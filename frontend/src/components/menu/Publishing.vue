@@ -32,8 +32,8 @@ export default {
 	data () {
 		return {
 			page: {
-				title: '참고자료',
-				subtitle: 'Reference data'
+				title: '퍼블리싱',
+				subtitle: 'Publishing'
 			},
 			lData:{}
 		}
@@ -57,7 +57,7 @@ export default {
 			}
 			let listError = function() {
 			}
-			this.ajaxGet('/static/data/reference.json','', listRes,listError)
+			this.ajaxGet('/static/data/publishing.json','', listRes,listError)
 		},
 	}
 }

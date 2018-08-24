@@ -22,7 +22,7 @@
 						</div>
 						<div class="info_wrap">
 							<div class="title">응용스킬</div>
-							<div class="info">sass,requirejs(맛만봄),webpack(조금 맛만봄),node,js(npm 맛만봄),vue(프프로젝트2개진행)</div>
+							<div class="info">scss,require.js(프로젝트1개 진행),webpack,node.js(npm과 함께 사용함),vue(프로젝트2개 퍼블리싱)</div>
 						</div>
 						<div class="info_wrap">
 							<div class="title">휴대전화</div>
@@ -77,7 +77,6 @@
 									<li><a href="http://www.nibbuns.co.kr/m/" target="_blank">니쁜스 M - http://www.nibbuns.co.kr/m/</a></li>
 									<li><a href="http://www.gumzzi.co.kr/m/" target="_blank">금찌 M - http://www.gumzzi.co.kr/m/</a></li>
 									<li><a href="http://ulvine.com/m2/" target="_blank">얼바인 M - http://ulvine.com/m2/</a></li>
-
 								</ul>
 							</div>
 						</div>

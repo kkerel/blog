@@ -1,6 +1,6 @@
 <template>
 	<aside>
-		<h1>June Su<!-- June Blog&nbsp;★ --></h1>
+		<h1>June Blog</h1>
 		<nav>
 			<ul>
 				<li>
@@ -15,7 +15,17 @@
 				</li>
 				<li>
 					<router-link v-bind:to="{ name: 'Referencedata' }">
-						<span class="title">자료</span>
+						<span class="title">참고자료</span>
+					</router-link>
+				</li>
+				<li>
+					<router-link v-bind:to="{ name: 'Publishing' }">
+						<span class="title">퍼블리싱</span>
+					</router-link>
+				</li>
+				<li>
+					<router-link v-bind:to="{ name: 'Develop' }">
+						<span class="title">개발</span>
 					</router-link>
 				</li>
 			</ul>
