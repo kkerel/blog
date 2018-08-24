@@ -40,9 +40,10 @@
 							<div class="title">프로젝트 이력</div>
 							<div class="info">
 								<ul>
-									<li><a href="http://fb.pickdata.co.kr/#/" target="_blank">pickdata - http://fb.pickdata.co.kr/#/</a></li>
-									<li><a href="http://www.lottosport.co.kr/" target="_blank">creative library - http://www.lottosport.co.kr</a></li>
-									<li><a href="http://www.lottosport.co.kr/" target="_blank">bigsical - http://www.lottosport.co.kr</a></li>
+									<li><a href="http://fb.pickdata.co.kr/#/" target="_blank">pickdata - http://fb.pickdata.co.kr/</a></li>
+									<li><a href="https://kkerel.github.io/creativelibrary/" target="_blank">creative library - https://kkerel.github.io/creativelibrary/</a></li>
+									<li><a href="http://bigcial.com/" target="_blank">bigsical - http://bigcial.com/</a></li>
+									<li><a href="http://junesu91.dothome.co.kr/" target="_blank">굿다이렉트 - http://junesu91.dothome.co.kr/</a></li>
 									<li><a href="http://www.lottosport.co.kr/" target="_blank">로또스포츠 - http://www.lottosport.co.kr</a></li>
 									<li><a href="http://www.mulawear.com/" target="_blank">뮬라웨어 (한국어) - http://www.mulawear.com</a></li>
 									<li><a href="http://cn.mulawear.com/" target="_blank">뮬라웨어 (중어) - http://cn.mulawear.com</a></li>

@@ -6,7 +6,7 @@
     </div>
     <div class="button">
       <div class="button_cover"></div>
-      <a href="https://kkerel.github.io/portfolio/" target="_blank">포트폴리오</a>
+      <a href="https://kkerel.github.io/official_portfolio/" target="_blank">포트폴리오</a>
     </div>
   </footer>
 </template>
