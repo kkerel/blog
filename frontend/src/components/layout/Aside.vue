@@ -58,4 +58,25 @@ aside{ position: fixed; top: 0px; left: 0px; z-index: 10; width: 250px; height: 
 		}
 	}
 }
+/* 반응형 */
+@media all and (max-width: 768px) {
+	aside{width:100%; position:static;
+		ul{width:100%; display:table;
+			li{width:20%; display:table-cell;
+				a{text-align:center; padding-left:0px;}
+				.router-link-exact-active{border-right:0px; border-bottom:5px solid #fff;}
+			}
+		}
+	}
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	aside{width:100%; position:static;
+		ul{width:100%; display:table;
+			li{width:20%; display:table-cell;
+				a{text-align:center; padding-left:0px;}
+				.router-link-exact-active{border-right:0px; border-bottom:5px solid #fff;}
+			}
+		}
+	}
+}
 </style>

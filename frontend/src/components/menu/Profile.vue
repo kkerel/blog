@@ -22,7 +22,7 @@
 						</div>
 						<div class="info_wrap">
 							<div class="title">응용스킬</div>
-							<div class="info">scss,require.js(프로젝트1개 진행),webpack,node.js(npm과 함께 사용함),vue(프로젝트2개 퍼블리싱)</div>
+							<div class="info">scss,require.js(프로젝트1개 진행),webpack,node.js,vue(프로젝트2개 퍼블리싱)</div>
 						</div>
 						<div class="info_wrap">
 							<div class="title">휴대전화</div>
@@ -40,9 +40,9 @@
 							<div class="title">프로젝트 이력</div>
 							<div class="info">
 								<ul>
-									<li><a href="http://fb.pickdata.co.kr/#/" target="_blank">pickdata - http://fb.pickdata.co.kr/</a></li>
+									<li><a href="http://fb.pickdata.co.kr/#/" target="_blank">pickdata (솔루션) - http://fb.pickdata.co.kr/</a></li>
 									<li><a href="https://kkerel.github.io/creativelibrary/" target="_blank">creative library - https://kkerel.github.io/creativelibrary/</a></li>
-									<li><a href="http://bigcial.com/" target="_blank">bigsical - http://bigcial.com/</a></li>
+									<li><a href="https://www.bigcial.com/#/signin" target="_blank">bigsical (솔루션) - https://www.bigcial.com/#/signin</a></li>
 									<li><a href="http://junesu91.dothome.co.kr/" target="_blank">굿다이렉트 - http://junesu91.dothome.co.kr/</a></li>
 									<li><a href="http://www.lottosport.co.kr/" target="_blank">로또스포츠 - http://www.lottosport.co.kr</a></li>
 									<li><a href="http://www.mulawear.com/" target="_blank">뮬라웨어 (한국어) - http://www.mulawear.com</a></li>
@@ -111,8 +111,8 @@ export default {
 .section_inner_wrap{
 	p{line-height:1.5;}
 	.info_wrap{width:100%; display:table; line-height:2; font-size:12px;
-		.title{width:120px; padding:5px 0px; display:table-cell;}
-		.info{display:table-cell;}
+		.title{width:120px; padding:5px 0px; display:table-cell; font-size:16px;}
+		.info{display:table-cell; font-size:16px;}
 	}
 	.visual{width:100%; height:300px; background:url('../../assets/image/common/visual_02.jpg') center center no-repeat; margin-bottom:20px;}
 }
