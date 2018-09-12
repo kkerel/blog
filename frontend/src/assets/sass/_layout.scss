@@ -31,11 +31,11 @@ body{ background:#e9ecf3; margin:0px;
 
 @media all and (max-width: 768px) {
 	body{
-		.main_widget{padding:4%;}
+		.main_widget{padding:4%; padding-top:80px;}
 	}
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	body{
-		.main_widget{padding:8%;}
+		.main_widget{padding:8%; padding-top:180px;}
 	}
 }

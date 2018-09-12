@@ -39,7 +39,7 @@ $color-type03:#323c48; // 상단 포인트색상
 .board_wrap{border-radius:2px;
 	table{width:100%; border-left:1px solid $color-type01;
 		th{background:$color-type02; border-top:2px solid $color-type03; color:$color-type03; border-right:1px solid $color-type01; border-bottom:1px solid $color-type01; height:50px; line-height:50px; text-indent:10px; font-weight:bold;}
-		td{height:50px; line-height:50px; border-bottom:1px solid $color-type01; border-right:1px solid $color-type01; text-indent:10px;
+		td{height:50px; line-height:50px; border-bottom:1px solid $color-type01; border-right:1px solid $color-type01; padding:0px 10px;
 			a{font-size:14px; display:block;}
 			&.title{
 				a{
